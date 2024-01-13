@@ -29,8 +29,8 @@ export default function AccordionExpandDefault({ item }) {
             <Accordion>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel2-content"
-                    id="panel2-header"
+                    aria-controls="panel2-content-hindi"
+                    id="panel2-header-hindi"
                 >
                     <Typography>Hindi Summary</Typography>
                 </AccordionSummary>
@@ -45,8 +45,8 @@ export default function AccordionExpandDefault({ item }) {
             <Accordion>
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
-                    aria-controls="panel2-content"
-                    id="panel2-header"
+                    aria-controls="panel2-content-english"
+                    id="panel2-header-english"
                 >
                     <Typography>English Summary</Typography>
                 </AccordionSummary>
