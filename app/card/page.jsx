@@ -12,7 +12,7 @@ export default function AccordionExpandDefault({ item }) {
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel1-content"
-                    id="panel1-header"
+                    
                 >
                     <Typography> <span className='text-red-500'>{item.id}</span> : <span className='font-bold'>{item.name_meaning}</span> ({item.name})</Typography>
                 </AccordionSummary>
@@ -30,7 +30,7 @@ export default function AccordionExpandDefault({ item }) {
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel2-content-hindi"
-                    id="panel2-header-hindi"
+                    
                 >
                     <Typography>Hindi Summary</Typography>
                 </AccordionSummary>
@@ -46,7 +46,7 @@ export default function AccordionExpandDefault({ item }) {
                 <AccordionSummary
                     expandIcon={<ExpandMoreIcon />}
                     aria-controls="panel2-content-english"
-                    id="panel2-header-english"
+                    
                 >
                     <Typography>English Summary</Typography>
                 </AccordionSummary>
